@@ -1,0 +1,43 @@
+{
+  "name": "agency-agents-pt-br",
+  "version": "1.0.0",
+  "description": "184 plug-and-play AI agent personas em Português brasileiro — tradução completa do agency-agents",
+  "keywords": [
+    "ai-agents",
+    "prompts",
+    "system-prompts",
+    "portuguese",
+    "brasil",
+    "brazilian-portuguese",
+    "multi-agent",
+    "agency-agents",
+    "llm",
+    "claude",
+    "roles"
+  ],
+  "author": "jnMetaCode",
+  "license": "MIT",
+  "homepage": "https://github.com/jnMetaCode/agency-agents-pt-BR#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jnMetaCode/agency-agents-pt-BR"
+  },
+  "files": [
+    "academic/",
+    "design/",
+    "engineering/",
+    "finance/",
+    "game-development/",
+    "marketing/",
+    "paid-media/",
+    "product/",
+    "project-management/",
+    "sales/",
+    "spatial-computing/",
+    "specialized/",
+    "support/",
+    "testing/",
+    "README.md",
+    "LICENSE"
+  ]
+}
