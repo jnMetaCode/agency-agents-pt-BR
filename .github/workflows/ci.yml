@@ -1,0 +1,62 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate agent files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Count agents
+        run: |
+          TOTAL=$(find . -path './.github' -prune -o -path './scripts' -prune -o -path './examples' -prune -o -path './integrations' -prune -o -name '*.md' -print | grep -c '/')
+          echo "Total agent files: $TOTAL"
+
+      - name: Check frontmatter format
+        run: |
+          ERRORS=0
+          while IFS= read -r file; do
+            # Skip non-agent files
+            case "$file" in
+              ./README*|./CONTRIBUTING*|./UPSTREAM*|./AGENT-LIST*|./CATALOG*|./CODE_OF_CONDUCT*|./.github/*|./scripts/*|./examples/*|./integrations/*|./docs/*|./strategy/*) continue ;;
+            esac
+
+            # Check frontmatter exists
+            if ! head -1 "$file" | grep -q '^---'; then
+              echo "::error file=$file::Missing frontmatter (no opening ---)"
+              ERRORS=$((ERRORS + 1))
+              continue
+            fi
+
+            # Check required fields
+            FRONTMATTER=$(sed -n '/^---$/,/^---$/p' "$file" | head -20)
+            for field in name description; do
+              if ! echo "$FRONTMATTER" | grep -q "^${field}:"; then
+                echo "::warning file=$file::Missing recommended field: $field"
+              fi
+            done
+          done < <(find . -path './.github' -prune -o -path './scripts' -prune -o -path './examples' -prune -o -path './integrations' -prune -o -path './node_modules' -prune -o -name '*.md' -print | grep '/')
+
+          if [ $ERRORS -gt 0 ]; then
+            echo "::error::$ERRORS file(s) have frontmatter errors"
+            exit 1
+          fi
+          echo "All agent files validated successfully"
+
+      - name: Check for broken internal links
+        run: |
+          ERRORS=0
+          # Check README references to agent files
+          while read -r link; do
+            if [ ! -f "$link" ]; then
+              echo "::error file=README.md::Broken link: $link"
+              ERRORS=$((ERRORS + 1))
+            fi
+          done < <(grep -oP '(?<=\]\()(?!http)[^)]+\.md' README.md)
+          exit $ERRORS
