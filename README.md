@@ -1,6 +1,6 @@
 # agency-agents Português brasileiro (Equipe de Especialistas em IA)
 
-🌐 **Português (BR)** | [English (upstream)](https://github.com/msitarzewski/agency-agents) | [简体中文](https://github.com/jnMetaCode/agency-agents-zh) | [한국어](https://github.com/jnMetaCode/agency-agents-ko)
+🌐 **Português (BR)** | [English (upstream)](https://github.com/msitarzewski/agency-agents) | [简体中文](https://github.com/jnMetaCode/agency-agents-zh) | [한국어](https://github.com/jnMetaCode/agency-agents-ko) | [Русский](https://github.com/jnMetaCode/agency-agents-ru) | [Bahasa Indonesia](https://github.com/jnMetaCode/agency-agents-id) | [العربية](https://github.com/jnMetaCode/agency-agents-ar)
 
 > **184 personas de agentes de IA plug-and-play** — cobrindo engenharia, design, marketing, produto, jogos, segurança, finanças e outros 18 departamentos. Não são templates genéricos de prompt: cada agente tem persona própria, fluxo profissional e entregáveis bem definidos. Suporte a Claude Code / Cursor / Copilot e mais 17 ferramentas de IA para programação.
 
@@ -192,7 +192,10 @@ Tradução, melhorias de conteúdo e novos agentes específicos para o Brasil s�
 |---------|----------------|--------|
 | **Este projeto** (agency-agents-pt-BR) | 🎭 Biblioteca de personas em PT-BR | 184 especialistas de IA **prontos para uso**, PRs do mercado brasileiro bem-vindos |
 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) ![](https://img.shields.io/github/stars/jnMetaCode/agency-agents-zh?style=flat&label=⭐) | 🇨🇳 Edição em chinês | 215 agentes (165 traduções + 50 originais do mercado chinês — Xiaohongshu / Douyin / WeChat / Bilibili) |
-| [agency-agents-ko](https://github.com/jnMetaCode/agency-agents-ko) | 🇰🇷 Edição em coreano | 184 agentes traduzidos para o coreano |
+| [agency-agents-ko](https://github.com/jnMetaCode/agency-agents-ko) | 🇰🇷 Edição em coreano | 184 agentes traduzidos |
+| [agency-agents-ru](https://github.com/jnMetaCode/agency-agents-ru) | 🇷🇺 Edição em russo | 184 agentes traduzidos |
+| [agency-agents-id](https://github.com/jnMetaCode/agency-agents-id) | 🇮🇩 Edição em indonésio | 184 agentes traduzidos |
+| [agency-agents-ar](https://github.com/jnMetaCode/agency-agents-ar) | 🇸🇦 Edição em árabe | 184 agentes traduzidos |
 | [agency-agents](https://github.com/msitarzewski/agency-agents) | 🌏 Upstream em inglês | 184 agentes originais — a base deste projeto |
 | [agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator) | 🚀 Motor de orquestração | Uma frase → 184 especialistas colaboram, **resultado em minutos** (9 LLMs / 6 gratuitos) |
 
