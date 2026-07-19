@@ -56,6 +56,8 @@ npm i agency-agents-pt-br
 
 No workflow, use `agents_dir: "agency-agents-pt-br"` — ou selecione **Português (BR)** no menu de bibliotecas da página "Build a Team" do Studio web:
 
+Ou navegue pelos 187 agentes online (sem instalar): [**ao.aiolaola.com/experts?lib=pt-br**](https://ao.aiolaola.com/experts?lib=pt-br)
+
 <p align="center"><img src="assets/studio-role-lib.png" width="800" alt="AO Studio — biblioteca Português (BR) selecionada"></p>
 
 <p align="center">
