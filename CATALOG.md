@@ -30,7 +30,7 @@
 | Contador de Histórias Visual | `design/design-visual-storyteller.md` |
 | Injetor de Encanto | `design/design-whimsy-injector.md` |
 
-## 🛠️ Engenharia (29)
+## 🛠️ Engenharia (30)
 
 | Nome | Caminho do arquivo |
 |------|-------------------|
@@ -53,6 +53,7 @@
 | Comandante de Resposta a Incidentes | `engineering/engineering-incident-response-commander.md` |
 | Engenheiro de Mudança Mínima | `engineering/engineering-minimal-change-engineer.md` |
 | Construtor de Apps Mobile | `engineering/engineering-mobile-app-builder.md` |
+| Engenheiro de Integração PIX | `engineering/engineering-pix-integration-engineer.md` |
 | Prototipador Ágil | `engineering/engineering-rapid-prototyper.md` |
 | Engenheiro de Segurança | `engineering/engineering-security-engineer.md` |
 | Desenvolvedor Sênior | `engineering/engineering-senior-developer.md` |
@@ -99,7 +100,7 @@
 | Artista Técnico Unreal | `game-development/unreal-engine/unreal-technical-artist.md` |
 | Construtor de Mundos Unreal | `game-development/unreal-engine/unreal-world-builder.md` |
 
-## 📢 Marketing (30)
+## 📢 Marketing (32)
 
 | Nome | Caminho do arquivo |
 |------|-------------------|
@@ -120,6 +121,7 @@
 | Estrategista do Kuaishou | `marketing/marketing-kuaishou-strategist.md` |
 | Criador de Conteúdo para LinkedIn | `marketing/marketing-linkedin-content-creator.md` |
 | Coach de Live Commerce | `marketing/marketing-livestream-commerce-coach.md` |
+| Vendedor Mercado Livre | `marketing/marketing-mercado-livre-seller.md` |
 | Estrategista de Podcast | `marketing/marketing-podcast-strategist.md` |
 | Operador de Domínio Privado | `marketing/marketing-private-domain-operator.md` |
 | Construtor de Comunidade no Reddit | `marketing/marketing-reddit-community-builder.md` |
@@ -131,6 +133,7 @@
 | Especialista em Otimização de Vídeo | `marketing/marketing-video-optimization-specialist.md` |
 | Gerente de Conta Oficial WeChat | `marketing/marketing-wechat-official-account.md` |
 | Estrategista de Weibo | `marketing/marketing-weibo-strategist.md` |
+| Operador de WhatsApp Business | `marketing/marketing-whatsapp-business-operator.md` |
 | Especialista em Xiaohongshu | `marketing/marketing-xiaohongshu-specialist.md` |
 | Estrategista Zhihu | `marketing/marketing-zhihu-strategist.md` |
 
@@ -263,4 +266,4 @@
 
 ---
 
-**Total: 184 agentes** · edição em português brasileiro do [agency-agents](https://github.com/msitarzewski/agency-agents)
+**Total: 187 agentes** · edição em português brasileiro do [agency-agents](https://github.com/msitarzewski/agency-agents)

@@ -1,7 +1,7 @@
 {
   "name": "agency-agents-pt-br",
   "version": "1.0.0",
-  "description": "184 plug-and-play AI agent personas em Português brasileiro — tradução completa do agency-agents",
+  "description": "187 plug-and-play AI agent personas em Português brasileiro — tradução completa do agency-agents",
   "keywords": [
     "ai-agents",
     "prompts",
@@ -38,6 +38,10 @@
     "support/",
     "testing/",
     "README.md",
-    "LICENSE"
-  ]
+    "LICENSE",
+    "CATALOG.md"
+  ],
+  "scripts": {
+    "check:counts": "node scripts/check-counts.mjs"
+  }
 }
