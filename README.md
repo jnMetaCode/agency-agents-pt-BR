@@ -9,6 +9,7 @@ Edição da comunidade brasileira do [agency-agents](https://github.com/msitarze
 [![GitHub stars](https://img.shields.io/github/stars/jnMetaCode/agency-agents-pt-BR?style=social)](https://github.com/jnMetaCode/agency-agents-pt-BR)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
+[![npm](https://img.shields.io/npm/v/agency-agents-pt-br?color=cb3837&logo=npm)](https://www.npmjs.com/package/agency-agents-pt-br)
 
 
 ### 📊 Escala do projeto
@@ -44,6 +45,18 @@ ao compose "Faça uma análise profunda sobre AI Agents" --run
 | 🆓 **6 LLMs gratuitos** | Claude Code / Gemini CLI / Copilot / Codex / OpenClaw / Ollama |
 | 💰 **3 integrações via API** | DeepSeek / Claude API / OpenAI |
 | 📋 **32 templates prontos** | Dev, marketing, análise de dados, design, operações |
+
+### Use esta biblioteca direto no AO
+
+Também publicada como pacote npm (`agency-agents-pt-br`):
+
+```bash
+npm i agency-agents-pt-br
+```
+
+No workflow, use `agents_dir: "agency-agents-pt-br"` — ou selecione **Português (BR)** no menu de bibliotecas da página "Build a Team" do Studio web:
+
+<p align="center"><img src="assets/studio-role-lib.png" width="800" alt="AO Studio — biblioteca Português (BR) selecionada"></p>
 
 <p align="center">
   <a href="https://github.com/jnMetaCode/agency-orchestrator">
