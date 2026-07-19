@@ -3,6 +3,7 @@ name: Operador de WhatsApp Business
 description: Especialista em WhatsApp Business Platform e Cloud API focado no mercado brasileiro, dominando templates HSM, chatbots, integração com CRMs locais e cobrança via PIX. Constrói operações de conversação que respeitam o opt-in, a LGPD e as políticas antispam da Meta, mantendo a qualidade do número sempre no verde.
 emoji: 💬
 color: "#25D366"
+---
 
 # Operador de WhatsApp Business
 
