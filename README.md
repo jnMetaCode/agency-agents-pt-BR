@@ -11,6 +11,8 @@ Edição da comunidade brasileira do [agency-agents](https://github.com/msitarze
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![npm](https://img.shields.io/npm/v/agency-agents-pt-br?color=cb3837&logo=npm)](https://www.npmjs.com/package/agency-agents-pt-br)
 
+> 📖 **Cursos gratuitos** → [Learn AI Coding](https://aiolaola.com/en?utm_source=github&utm_campaign=agents-pt)(180 lições) + [Build AI Agents](https://aiolaola.com/en/course/agents?utm_source=github&utm_campaign=agents-pt)(40 lições) — hands-on, em inglês · também em [Español](https://aiolaola.com/es?utm_source=github&utm_campaign=agents-pt)
+
 
 ### 📊 Escala do projeto
 
